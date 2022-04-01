@@ -1,0 +1,7 @@
+{
+  "sqlServer": {
+    "connectionString": "Server=DESKTOP-TSV4RBV\\SQLEXPRESS;Initial Catalog=SoccerStatsDev;Integrated Security=SSPI",
+    "migrationsAssembly": "SoccerStats.Infrastructure"
+
+  }
+}

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SoccerStats.Core.Interfaces.Repositories;
 
-internal interface IRepository<TEntity> where TEntity: class
+public interface IRepository<TEntity> where TEntity: class
 {
     // RETRIEVE METHODS
     // retrieve item based on primary key

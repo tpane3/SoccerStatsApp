@@ -5,9 +5,11 @@ VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoccerStats.Api", "SoccerStats.Api\SoccerStats.Api.csproj", "{61C97635-19DE-4DB6-9EE5-6BCF872D5620}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoccerStats.Infrastructure", "SoccerStats.Infrastructure\SoccerStats.Infrastructure.csproj", "{D2EB5452-B540-4B6B-9BF6-955AB369CA67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoccerStats.Infrastructure", "SoccerStats.Infrastructure\SoccerStats.Infrastructure.csproj", "{D2EB5452-B540-4B6B-9BF6-955AB369CA67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoccerStats.Core", "SoccerStats.Core\SoccerStats.Core.csproj", "{A7F3BE61-1D0B-4C45-85DE-360A6D7F74FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoccerStats.Core", "SoccerStats.Core\SoccerStats.Core.csproj", "{A7F3BE61-1D0B-4C45-85DE-360A6D7F74FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoccerStats.Tests", "SoccerStats.Tests\SoccerStats.Tests.csproj", "{7418D4CC-D92C-4EA7-AF56-F94F76AE9CA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{A7F3BE61-1D0B-4C45-85DE-360A6D7F74FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7F3BE61-1D0B-4C45-85DE-360A6D7F74FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7F3BE61-1D0B-4C45-85DE-360A6D7F74FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7418D4CC-D92C-4EA7-AF56-F94F76AE9CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7418D4CC-D92C-4EA7-AF56-F94F76AE9CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7418D4CC-D92C-4EA7-AF56-F94F76AE9CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7418D4CC-D92C-4EA7-AF56-F94F76AE9CA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
